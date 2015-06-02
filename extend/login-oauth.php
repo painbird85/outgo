@@ -39,11 +39,11 @@ function get_login_oauth($type, $img='') {
 		if ($img == 'none') { // Link
 		    return $str; 
 		} else {
-			$str = '<a href="javascript:'.$str.'"><img src="'.$img.'" alt="Sign in with '.$type.'"></a>';
+			$str = '<a href="javascript:'.$str.'"  class="ct-btn2 blue"><img src="'.$img.'" alt="Sign in with '.$type.'" class="pr10">페이스북 로그인</a>';
 		}
 	} else {
 		$img = G5_PLUGIN_URL.'/login-oauth/img/'.$type.'.png';
-		$str = '<a href="javascript:'.$str.'"><img src="'.$img.'" alt="Sign in with '.$type.'"></a>';
+		$str = '<a href="javascript:'.$str.'"  class="ct-btn2 blue"><img src="'.$img.'" alt="Sign in with '.$type.'" class="pr10">페이스북 로그인</a>';
 	}
 
     return $str;

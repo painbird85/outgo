@@ -69,7 +69,7 @@ if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 <div class="overlay"></div>
 
 <div id="modal1" class="modal">
-      <?php echo outlogin('basic'); // 외부 로그인  ?>
+      <?php echo outlogin('basic'); ?>
 </div>
 
 
